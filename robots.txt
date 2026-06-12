@@ -1,0 +1,30 @@
+# robots.txt for Kloete Group — kloetegroup.com
+# Allow all reputable crawlers full access.
+
+User-agent: *
+Allow: /
+
+# Explicitly welcome AI / answer-engine crawlers (AEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.kloetegroup.com/sitemap.xml

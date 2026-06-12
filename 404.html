@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#1A1A1A">
+<meta name="robots" content="noindex, follow">
+<title>Page Not Found | Kloete Group</title>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Fraunces:ital,opsz,wght@0,9..144,400;1,9..144,400;1,9..144,900&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --accent:#8A2431;--ink:#1A1A1A;--sub:#4A4A4A;--white:#FFFFFF;--bg:#F7F7F7;
+  --display:'Archivo Black',sans-serif;--serif:'Fraunces',serif;--mono:'JetBrains Mono',monospace;
+  --border-thicker:4px solid var(--ink);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  font-family:var(--serif);background:var(--bg);color:var(--ink);
+  min-height:100vh;display:flex;align-items:center;justify-content:center;
+  padding:24px;text-align:center;overflow-x:hidden;
+}
+.box{
+  background:var(--white);border:var(--border-thicker);
+  box-shadow:14px 14px 0 var(--ink);padding:56px 40px;max-width:560px;
+}
+.code{
+  font-family:var(--display);font-size:clamp(80px,20vw,140px);line-height:0.9;
+  color:var(--accent);letter-spacing:-0.04em;margin-bottom:8px;
+}
+h1{
+  font-family:var(--display);font-size:clamp(24px,5vw,34px);text-transform:uppercase;
+  letter-spacing:-0.02em;margin-bottom:20px;line-height:1.05;
+}
+h1 em{font-family:var(--serif);font-style:italic;font-weight:900;text-transform:none;color:var(--accent);}
+p{font-size:17px;color:var(--sub);line-height:1.55;margin-bottom:32px;}
+.btn{
+  display:inline-flex;align-items:center;gap:10px;padding:18px 28px;
+  font-family:var(--mono);font-size:13px;font-weight:700;text-transform:uppercase;
+  letter-spacing:0.08em;text-decoration:none;border:3px solid var(--ink);
+  background:var(--accent);color:var(--white);box-shadow:6px 6px 0 var(--ink);
+  transition:transform .15s,box-shadow .15s;
+}
+.btn:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 var(--ink);}
+.btn:active{transform:translate(2px,2px);box-shadow:3px 3px 0 var(--ink);}
+</style>
+</head>
+<body>
+  <div class="box">
+    <div class="code">404</div>
+    <h1>This seat is <em>empty.</em></h1>
+    <p>The page you're looking for isn't here — but the right leadership talent might be one conversation away. Let's get you back on track.</p>
+    <a href="/" class="btn">Back to Home →</a>
+  </div>
+</body>
+</html>
