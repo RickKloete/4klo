@@ -1,4 +1,4 @@
-# robots.txt for Kloete Group — kloetegroup.com
+# robots.txt for Kloete Group — 4klo.com
 # Allow all reputable crawlers full access.
 
 User-agent: *
@@ -27,4 +27,4 @@ User-agent: Applebot-Extended
 Allow: /
 
 # Sitemap location
-Sitemap: https://www.kloetegroup.com/sitemap.xml
+Sitemap: https://4klo.com/sitemap.xml
