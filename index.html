@@ -264,8 +264,6 @@ nav{
   transform:rotate(-3deg);
   transition:transform .2s ease;
 }
-.logo-img{height:36px;width:auto;display:block;filter:brightness(0) invert(1);}
-.footer-brand .logo-img{height:40px;}
 .logo:hover .logo-mark{transform:rotate(3deg);}
 .nav-links{display:flex;gap:32px;align-items:center;}
 .nav-links a{
@@ -1352,7 +1350,8 @@ footer{
 <nav>
   <div class="nav-inner">
     <a href="#" class="logo">
-      <img src="kloete-group-logo.png" alt="Kloete Group" class="logo-img">
+      <span class="logo-mark" aria-hidden="true">RK</span>
+      <span>KLOETE GROUP</span>
     </a>
     <div class="nav-links" id="navLinks" role="navigation" aria-label="Main navigation">
       <a href="#process">Process</a>
@@ -1801,7 +1800,8 @@ footer{
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="#" class="logo">
-          <img src="kloete-group-logo.png" alt="Kloete Group" class="logo-img">
+          <span class="logo-mark" aria-hidden="true">RK</span>
+          <span>KLOETE GROUP</span>
         </a>
         <p>Building futures one leader at a time — by delivering results through people with speed, quality, and value. Boutique retained executive search since 2010.</p>
       </div>
